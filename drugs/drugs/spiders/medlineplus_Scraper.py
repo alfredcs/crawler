@@ -2,7 +2,7 @@
 from matplotlib.pyplot import title
 import scrapy, os
 from scrapy_splash import SplashRequest
-from .drug_items import DrugScraperItem
+from drug_items import DrugScraperItem
 from bs4 import BeautifulSoup
 
 ## https://pypi.org/project/scrapy-user-agents/
